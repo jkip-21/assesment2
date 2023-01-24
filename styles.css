@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #dda15e, #bc6c25);
+}
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #3a5a40;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul {
+    float: left;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul li {
+    list-style: none;
+    margin-left: 45px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+ul li a {
+    color: #588157;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: orange;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 200px;
+}
+
+.srch {
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #3a5a40;
+    margin-top: 13px;
+    color: #588157;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    background:#588157;
+    border: 2px solid, orange;
+    font-size: 15px;
+    margin-top: 13px;
+    margin-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+.content{
+    width: 1200px;
+    color: #588157;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+.content h1{
+    margin-top: 10%;
+    margin-left: 20%;
+    color: wheat;
+    font-size: 35px;
+}
+.content button{
+    margin-top: 20px;
+    background-color:transparent;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px;
+    border: 2px solid #588157;
+}
+.content-sec p{
+font-size: 30px;
+float: left;
+color: wheat;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.content-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px;
+}
+.content-sec img{
+    height: 200px;
+    margin: 30px;
+    border-radius: 20px;
+    color: #dda15e;
+}
+.content-button{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.content-button button{
+    background: #517d51;
+    color: wheat;
+}
+.grid1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 15px;
+}
+
+.grid2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+.recipe-sec1{
+    margin-left: 20px;
+}
+.recipe-sec2{
+    margin-left: 20px;
+}
+.recipe-sec3{
+    margin-left: 20px;
+}
+.recipe-sec4{
+    margin-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background: linear-gradient(to right, purple, pink);
+    }
+    .navbar {
+        width: 600px;
+        height: 50px;
+        margin: auto;
+    }
+    
+    .icon {
+        width: 200px;
+        float: left;
+        height: 70px;
+    }
+    
+    .logo {
+        color: #3a5a40;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 20px;
+        float: left;
+        padding-top: 30px;
+    }
+    
+    .menu {
+        width: 400px;
+        height: 70px;
+        float: left;
+    }
+    
+    ul {
+        float: left;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    ul li {
+        list-style: none;
+        margin-left: 45px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    
+    ul li a {
+        color: #588157;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        transition: 0.4s ease-in-out;
+    }
+    
+    ul li a:hover {
+        color: orange;
+    }
+    
+    .search {
+        width: 330px;
+        float: left;
+        margin-left: 270px;
+    }
+    
+    .srch {
+        font-family: 'Times New Roman', Times, serif;
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid #588157;
+        margin-top: 13px;
+        color: wheat;
+        float: left;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    .btn {
+        height: 40px;
+        width: 100px;
+        background: #517d51;
+        border: 2px solid, orange;
+        font-size: 15px;
+        margin-top: 13px;
+        margin-left: 10px;
+        border-radius: 5px;
+    }
+    
+    .btn:focus {
+        outline: none;
+    }
+    .content h1{
+        margin-top: 10%;
+        margin-left: 20%;
+        color: wheat;
+        font-size: 35px;
+    }
+    .content button{
+        margin-top: 20px;
+        background-color:transparent;
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        font-size: 20px;
+        margin: 20px;
+        border: 2px solid #588157;
+    }
+    .content-sec p{
+    font-size: 30px;
+    float: left;
+    color: wheat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .content-sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        text-align: center;
+        padding: 20px;
+    }
+    .content-sec img{
+        height: 200px;
+        margin: 30px;
+        border-radius: 20px;
+        color: #dda15e;
+    }
+    .content-button{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+    .content-button button{
+        background: #517d51;
+        color: wheat;
+    }
+    .grid1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        padding: 15px;
+    }
+    
+    .grid2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 15px;
+    }
+    .recipe-sec1{
+        margin-left: 20px;
+    }
+    .recipe-sec2{
+        margin-left: 20px;
+    }
+    .recipe-sec3{
+        margin-left: 20px;
+    }
+    .recipe-sec4{
+        margin-left: 20px;
+    }
+  }
