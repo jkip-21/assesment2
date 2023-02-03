@@ -113,7 +113,7 @@ document.getElementById("search").addEventListener("keyup", function(event) {
             if(x == "roasted" || x== "Roasted"){
                 window.open("./displays/display.php");
             }else{
-                
+
             }
             if(x=="Ginger Beef" || x=='Ginger'|| x=='ginger' || x=='gin'||x=='beef'){
                 window.open("./displays/display2.php") 
@@ -143,6 +143,9 @@ document.getElementById("search").addEventListener("keyup", function(event) {
             if(x=="lime"|| x=="Lime"||x=="Waffles" || x=='"waffles'||x=="Lime Waffles"){
                 window.open("./displays/display10.php") 
             }
+            else {
+        alert("Recipe not found. Please try another search.")
+    }
 
   }
 });
